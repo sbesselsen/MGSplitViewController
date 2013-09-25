@@ -142,6 +142,8 @@
 	_dividerView.splitViewController = self;
 	_dividerView.backgroundColor = MG_DEFAULT_CORNER_COLOR;
 	_dividerStyle = MGSplitViewDividerStyleThin;
+    
+    self.view.autoresizesSubviews = NO;
 }
 
 
